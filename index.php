@@ -121,6 +121,42 @@
         </div>
     </section>
 
+
+    <section>
+        <div class="event-">
+            <h1 class="text-center">Upcoming Events</h1>
+            <div class="event">
+                <div class="event-one e-one">
+
+                </div>
+                <div class="event-one">
+
+                </div>
+                <div class="event-one">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="yt">
+            <h1 class="text-center">Sermon on Youtube</h1>
+        </div>
+        <div class="youtube">
+            <div class="yt-">
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/SRubziCyuwQ?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="yt-">
+                <<iframe width="400" height="315" src="https://www.youtube.com/embed/Lkt8jLt8jzI?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="yt-">
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/p-VmSYdfKYA?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
     <!-- lightbox Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
