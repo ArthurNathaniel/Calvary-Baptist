@@ -1,0 +1,125 @@
+<div class="all_forms">
+
+    <div class="forms">
+        <div class="logo-">
+            <div class="logo">
+            </div>
+        </div>
+        <h1>Welcome Back! 👋 </h1>
+        <br>
+        <p>
+            Asawase Cathsu Management System
+        </p>
+        <br>
+        <form method="POST" action="{% url 'perform_login' %}">
+
+
+            <label for="">Username</label>
+            <br />
+            <input type="text" name="username" required />
+            <br />
+            <label for="">Password</label>
+            <br />
+            <input type="password" name="password" required />
+            <br />
+            <br>
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </div>
+</div>
+
+
+
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Rubik', sans-serif;
+
+    }
+
+    body {
+        background-color: #f4f6f8;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .all_forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .forms {
+        background-color: #fff;
+        padding: 50px;
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+        border-radius: 5px;
+    }
+
+    .logo {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-image: url("../static/images/logo.jpg");
+        background-position: center;
+        background-size: cover;
+        box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+
+    }
+
+    .logo- {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    input {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        background-color: #fff;
+        border: 1px solid #000;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+
+    .btn {
+        background-color: #9e0a89;
+        padding: 15px 50px;
+        border: none;
+        color: #fff;
+        font-family: 'Rubik', sans-serif;
+        width: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+
+    .messages {
+        width: 100%;
+        border: 2px solid #fff;
+        padding: 30px;
+
+    }
+
+    .messages span {
+        background-color: #fd8b95;
+        padding: 15px;
+        color: #ac3842;
+    }
+</style>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

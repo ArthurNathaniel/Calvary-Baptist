@@ -229,9 +229,53 @@ body {
     bottom: 0;
     background-color: ;
 }
-
+.yt{
+    margin-top: 50px;
+}
 .youtube {
     padding: 0 7%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
+}
+footer{
+    padding: 0 7%;
+    padding-top: 40px;
+    margin-top: 50px;
+    background-color:#43b87f;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+
+}
+.ft-logo{
+    height: 200px;
+    width: 270px;
+    background-image: url(./images/logo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+footer h3{
+color: #f4f6f8;
+font-weight: 600;
+}
+footer a{
+    line-height: 2;
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    font-weight: 600;
+    color: #fff;
+}
+
+.cta{
+    margin: 0 20%;
+    background-color: #def4f4;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }

@@ -1,0 +1,39 @@
+.about {
+    height: 85vh;
+    background-color: #f4f6f8;
+    /* background-image: url(./images/hero.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+
+    padding: 0 7%;
+}
+
+
+.mission{
+    padding: 0 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -50px;
+
+}
+
+.mission-{
+    width: 95%;
+    padding: 0 5%;
+    padding-block: 20px;
+    background-color: #43b87f;
+color: #f4f6f8;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+border-radius: 10px;
+}
+.mission- h1{
+    font-size: 60px;
+}
