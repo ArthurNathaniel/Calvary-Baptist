@@ -1,6 +1,6 @@
 .photo {
     height: 85vh;
-    background-color: #fff;
+    background-image: url(./images/photo_gallery_.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,6 +13,8 @@
     height: 80vh;
     padding: 0 7%;
     width: 50%;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .gallery {

@@ -339,6 +339,14 @@ width: 95%;
 border-radius: 5px;
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+.about-home-text{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    align-items: flex-start;
+}
 @media only screen and (max-width: 1200px) {
     .hero-text {
         width: 100%;
@@ -432,6 +440,7 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         display: block;
         width: 100%;
         margin: 0 auto;
+        margin-top: 50px;
     }
     .about-home-text{
         display: block;

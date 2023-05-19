@@ -85,10 +85,10 @@
                     and redemption."
                 </p>
                 <p>
-                    At Calvary Baptist Center, we are a diverse family of believers united in our love for Jesus Christ. With
-                    open hearts and open arms, we embrace all who seek spiritual nourishment, fostering a community of love,
-                    acceptance, and grace. Together, we discover our purpose, grow in our giftings, and make a positive impact
-                    in our church and beyond.
+                    At Calvary Baptist Center, we are a diverse family of believers united in our love for Jesus Christ. With 
+                    open hearts and open arms, we embrace all who seek spiritual nourishment, fostering a community of love, 
+                    acceptance, and grace. Together, we discover our purpose, grow in our gifts, and make a positive impact in
+                    our church and beyond.
                 </p>
                 <button class="btn-sermon">
                     <a href="about.php">View More</a>
