@@ -27,16 +27,16 @@
                 <p>
                     Experience the love of Christ and find purpose in fellowship and service.
                 </p>
-                <button class="button-33">
+                <!-- <button class="button-33">
                     <a href="">About Us <i class="fas fa-info-circle"></i></a>
-                </button>
+                </button> -->
             </div>
         </div>
     </section>
 
     <section>
         <div class="home-box-">
-            <div class="box">
+            <div class="box le">
                 <h1> <i class="fas fa-book-open"></i></h1>
                 <h2>Our Sermons</h2>
                 <p>
@@ -44,7 +44,7 @@
                     'Unleashing Grace
                 </p>
                 <button class="btn-sermon">
-                    <a href="">View More <i class="fas fa-ellipsis-h"></i></a>
+                    <a href="sermon.php">View More</a>
                 </button>
             </div>
             <div class="box dona">
@@ -54,11 +54,11 @@
                     Your generosity makes a difference - partner with us through your donation and help us continue spreading God's love
                     and impacting lives.
                 </p>
-                <button class="btn-sermon">
+                <!-- <button class="btn-sermon">
                     <a href="">Donate <i class="fas fa-dollar-sign"></i></a>
-                </button>
+                </button> -->
             </div>
-            <div class="box">
+            <div class="box you">
                 <h1><i class="fas fa-envelope"></i></h1>
                 <h2>New Member Inquiry</h2>
                 <p>
@@ -66,14 +66,14 @@
                     church family
                 </p>
                 <button class="btn-sermon">
-                    <a href="">Contact Us <i class="fas fa-phone"></i></a>
+                    <a href="contact.php">Contact Us <i class="fas fa-phone"></i></a>
                 </button>
             </div>
         </div>
     </section>
 
     <section>
-        <div class="about-home- row">
+        <div class="about-home- row gy-5">
             <div class="col-md-6 about-home-text">
                 <h5>ABOUT US</h5>
                 <h2>Our Sacred Journey: Calvary Baptist Center</h2>
@@ -91,7 +91,7 @@
                     in our church and beyond.
                 </p>
                 <button class="btn-sermon">
-                    <a href="">View More <i class="fas fa-ellipsis-h"></i></a>
+                    <a href="about.php">View More</a>
                 </button>
             </div>
             <div class="col-md-6 church">
@@ -129,10 +129,10 @@
                 <div class="event-one e-one">
 
                 </div>
-                <div class="event-one">
+                <div class="event-one e-two">
 
                 </div>
-                <div class="event-one">
+                <div class="event-one e-three">
 
                 </div>
             </div>
@@ -147,13 +147,13 @@
         <br>
         <div class="youtube">
             <div class="yt-">
-                <iframe width="400" height="315" src="https://www.youtube.com/embed/SRubziCyuwQ?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="95%" height="315" src="https://www.youtube.com/embed/SRubziCyuwQ?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="yt-">
-                <iframe width="400" height="315" src="https://www.youtube.com/embed/Lkt8jLt8jzI?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="95%" height="315" src="https://www.youtube.com/embed/Lkt8jLt8jzI?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="yt-">
-                <iframe width="400" height="315" src="https://www.youtube.com/embed/p-VmSYdfKYA?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="95%" height="315" src="https://www.youtube.com/embed/p-VmSYdfKYA?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </section>

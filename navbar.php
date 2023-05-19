@@ -17,22 +17,22 @@
                     <a class="nav-link" href="about.php">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sermon</a>
+                    <a class="nav-link" href="sermon.php">Sermon</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Community Engagement <i class="fa-solid fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Hope for Africa</a></li>
-                        <li><a class="dropdown-item" href="#">Aged Smile</a></li>
+                        <li><a class="dropdown-item" href="hope-for-africa.php">Hope for Africa</a></li>
+                        <li><a class="dropdown-item" href="aged-smile.php">Aged Smile</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Gallery</a>
+                    <a class="nav-link" href="gallery.php">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
             </ul>
 

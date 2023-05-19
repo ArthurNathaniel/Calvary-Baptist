@@ -1,7 +1,7 @@
 .about {
     height: 85vh;
-    background-color: #f4f6f8;
-    /* background-image: url(./images/hero.jpg); */
+    /* background-color: #f4f6f8; */
+    background-image: url(./images/cal-banner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,12 +12,13 @@
     flex-direction: column;
     justify-content: center;
     height: 80vh;
-
+    color: #f4f6f8;
     padding: 0 7%;
+    text-shadow: 3px -1px 3px rgba(0, 0, 0, 1);
 }
 
 
-.mission{
+.mission {
     padding: 0 7%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -25,15 +26,28 @@
 
 }
 
-.mission-{
+.mission- {
     width: 95%;
     padding: 0 5%;
     padding-block: 20px;
-    background-color: #43b87f;
-color: #f4f6f8;
-box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-border-radius: 10px;
+    background-color: #800020;
+    color: #f4f6f8;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    border-radius: 10px;
 }
-.mission- h1{
+
+.mission- h1 {
     font-size: 60px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .mission{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .mission-{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
 }

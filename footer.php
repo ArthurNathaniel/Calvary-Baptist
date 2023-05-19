@@ -1,38 +1,40 @@
 <footer>
-    <div class="row">
-        <div class="col-md-3 ">
-            <div class="ft-logo">
+    <div class="row footer">
+        <div class="col-md-3 ft ">
+            <a href="index.php">
+                <div class="ft-logo">
 
-            </div>
+                </div>
+            </a>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3 ft">
             <h3>QUICK LINKS</h3>
-            <a href="">Home</a>
+            <a href="index.php">Home</a>
             <br>
-            <a href="">About Us</a>
+            <a href="about.php">About Us</a>
             <br>
-            <a href="">Sermon</a>
+            <a href="sermon.php">Sermon</a>
             <br>
-            <a href="">Contact Us</a>
+            <a href="contact.php">Contact Us</a>
         </div>
-        <div class="col-md-4">
-            <h3>COMMUNITY ENGAGEMENT</h3>
-            <a href="">Hope for Africa</a>
+        <div class="col-md-3 ft">
+            <h3>SOCIAL OUTREACH</h3>
+            <a href="hope-for-africa.php">Hope for Africa</a>
             <br>
-            <a href="">Aged Smile</a>
+            <a href="aged-smile.php">Aged Smile</a>
             <br>
-            <a href="">Photo Gallery</a>
+            <a href="gallery.php">Photo Gallery</a>
             <br>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 ft">
             <h3>CONTACT US</h3>
-            <a href=""><i class="fas fa-map-marker-alt"></i>15880 Crest Dr,</a>
+            <a href=""><i class="fas fa-map-marker-alt"></i> 15880 Crest Dr,</a>
             <br>
-            <a href=""><i class="fas fa-map-marker-alt"></i>Woodbridge, VA 22191,</a>
+            <a href=""><i class="fas fa-map-marker-alt"></i> Woodbridge, VA 22191,</a>
             <br>
-            <a href=""><i class="fas fa-map-marker-alt"></i>United States</a>
+            <a href=""><i class="fas fa-map-marker-alt"></i> United States</a>
             <br>
-            <a href=""> <i class="fas fa-phone"></i></a>
+            <a href=""> <i class="fas fa-phone"></i> 703-565-2755</a>
         </div>
     </div>
 </footer>

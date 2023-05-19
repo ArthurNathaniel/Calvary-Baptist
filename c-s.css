@@ -1,0 +1,237 @@
+.africa- {
+    height: 85vh;
+    background-color: #f4f6f8;
+    background-image: url(./images/hope-for-africa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f4f6f8;
+}
+
+.africa-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    padding: 0 7%;
+    display: none;
+}
+
+
+.aged {
+    height: 85vh;
+    background-color: #f4f6f8;
+    background-image: url(./images/age-smile.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.aged-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    padding: 0 7%;
+    width: 50%;
+}
+
+.hope {
+    margin-top: 50px;
+    padding: 0 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hope- {
+    height: 500px;
+    width: 95%;
+    background-image: url(./images/hope-one.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.africa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+}
+
+.ahead {
+    padding: 0 7%;
+    padding-block: 50px;
+    margin-top: 50px;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ahead-image {
+    height: 500px;
+    width: 95%;
+    background-image: url(./images/hope-two.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aged-image {
+    height: 500px;
+    width: 650px;
+    background-image: url(./images/hope-one.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aged- {
+
+    height: 500px;
+    width: 650px;
+    background-image: url(./images/hope-one.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aged-smile {
+    padding: 0 7%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.smile {
+    width: 95%;
+}
+
+.smile- {
+    width: 95%;
+    height: 500px;
+    background-image: url(./images/aged-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.aged-2 {
+    padding: 0 7%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #eee;
+    padding-block: 25px;
+}
+
+.aged-3 {
+    width: 95%;
+}
+
+.aged-4 {
+    width: 95%;
+    height: 500px;
+    background-image: url(./images/aged-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.future{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 7%;
+    margin-top: 50px;
+    background-color: #eee;
+    padding-block: 25px;
+}
+
+.future-{
+    width: 95%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .hope{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .hope-{
+        display: block;
+            width: 100%;
+            margin: 0 auto;
+    }
+    .hope- img{
+        display: block;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 50px;
+    }
+    .africa{
+        display: block;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 25px;
+    }
+    .future, .future-, .ahead-image{
+        display: block;
+            width: 100%;
+            margin: 0 auto;
+    }
+    .ahead-image img{
+        margin-top: 25px;
+    }
+    .aged-text{
+        width: 100%;
+    }
+    .aged-smile{
+display: block;
+    width: 100%;
+    margin: 0 auto;    }
+    .smile-{
+        display: block;
+            width: 100%;
+            margin: 0 auto;
+    }
+    .aged-2, .aged-3, .aged-4{
+        display: block;
+            width: 100%;
+            margin: 0 auto;
+    }
+}

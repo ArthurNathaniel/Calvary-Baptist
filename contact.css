@@ -1,0 +1,138 @@
+
+.contact {
+    height: 85vh;
+    background-image:url("./images/contact_us.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: 1px 2px 2px #000;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    padding: 0 7%;
+    width: 50%;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 7%;
+}
+
+.forms {
+    background-color: #fff;
+    padding: 50px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.input-forms {
+    margin-top: 25px;
+}
+
+.input-forms input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #9c9c9c;
+}
+
+.input-forms textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #9c9c9c;
+
+}
+
+.contact-btn {
+    background-color: #800020;
+    border: none;
+    color: #fff;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.card-- {
+    margin-top: 50px;
+}
+
+.card- {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #fff;
+    width: 90%;
+    padding: 20px 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.icon {
+    background-color: #eee;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;}
+
+.icon-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon h1 {
+    margin-top: 20px;
+    color: #800020;
+}
+
+.google{
+    padding: 0 10%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.map{
+    padding: 0 7%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact-text{
+        width: 100%;
+    }
+    .contact-grid{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact-box{
+        display: block;
+            width: 100%;
+            margin: 0 auto;
+    }
+    .card-{
+        display: block;
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+    }
+    .icon{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .icon h1{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+}
