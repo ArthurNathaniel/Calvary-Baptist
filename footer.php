@@ -28,11 +28,11 @@
         </div>
         <div class="col-md-3 ft">
             <h3>CONTACT US</h3>
-            <a href=""><i class="fas fa-map-marker-alt"></i> 15880 Crest Dr,</a>
+            <a href=""><i class="fas fa-map-marker-alt"></i> 12450 Clipper Dr,</a>
             <br>
-            <a href=""><i class="fas fa-map-marker-alt"></i> Woodbridge, VA 22191,</a>
+            <a href=""><i class="fas fa-map-marker-alt"></i> Lake Ridge, VA 22192,</a>
             <br>
-            <a href=""><i class="fas fa-map-marker-alt"></i> United States</a>
+            <a href=""><i class="fas fa-map-marker-alt"></i> Lake Ridge Baptist (United States)</a>
             <br>
             <a href=""> <i class="fas fa-phone"></i> 703-565-2755</a>
         </div>
