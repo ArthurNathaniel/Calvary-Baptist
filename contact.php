@@ -114,29 +114,29 @@
                         <div class="input-forms col-md-6">
                             <label for="">Name</label>
                             <br>
-                            <input type="text" id="name" placeholder="Enter your name">
+                            <input type="text" id="name" placeholder="Enter your name" required>
                         </div>
                         <div class="input-forms col-md-6">
                             <label for="">Phone Number:</label>
                             <br>
-                            <input type="number" id="number" min="0" placeholder="Enter your phone number">
+                            <input type="number" id="number" min="0" placeholder="Enter your phone number" required>
                         </div>
                         <div class="input-forms col-md-6">
                             <label for="">Email</label>
                             <br>
-                            <input type="email" id="email" placeholder="Enter your email address">
+                            <input type="email" id="email" placeholder="Enter your email address" required>
                         </div>
                         <div class="input-forms col-md-6">
                             <label for="">Subject</label>
                             <br>
-                            <input type="text" id="subject" placeholder="Enter your subject">
+                            <input type="text" id="subject" placeholder="Enter your subject" required>
                         </div>
                         <div class="input-forms col-12">
                             <label for="">Message</label>
                             <textarea name="" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
                         </div>
                         <div class="input-forms col-md-4">
-                            <input type="submit" value="Get a Quote" onclick="sendMail()" data-bs-toggle="modal" data-bs-target="#myModal">
+                            <input type="submit" value="Submit" style="background-color: #800020; color:#FFF; border:none;"  onclick="sendMail()" data-bs-toggle="modal" data-bs-target="#myModal">
                         </div>
                     </div>
             </div>
